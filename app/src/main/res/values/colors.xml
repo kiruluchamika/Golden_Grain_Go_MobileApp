@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#F7E7A9</color> <!-- 60% background -->
+    <color name="colorSecondary">#8B5E3C</color> <!-- 30% text/logo -->
+    <color name="colorAccent">#C97E48</color> <!-- 10% highlights -->
+    <color name="colorText">#3E2723</color>
+
+    <color name="onboarding_bg">#FFF9C4</color> <!-- light yellow overlay -->
+    <color name="onboarding_card">#80FFFFFF</color> <!-- white with transparency -->
+    <color name="btn_onboard">#E4C748</color> <!-- white with transparency -->
 </resources>

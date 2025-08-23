@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background image -->
+    <item>
+        <bitmap
+            android:src="@drawable/bg_onboarding"
+            android:gravity="fill" />
+    </item>
+
+    <!-- Soft color overlay from your palette -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 0x33 = ~20% opacity -->
+            <solid android:color="#33FFF9C4"/> <!-- based on @color/onboarding_bg -->
+        </shape>
+    </item>
+</layer-list>

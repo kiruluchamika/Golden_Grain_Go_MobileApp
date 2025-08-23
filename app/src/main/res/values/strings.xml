@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">GoldenGrainGo</string>
+    <string name="app_name">Golden Grain Go</string>
+    <string name="tagline">Pure Grains, Golden Paths</string>
+    <string name="developer_credit">Developed by Ck 2025</string>
+
+    <string name="onboarding_title">Discover the Finest Rice Varieties</string>
+    <string name="onboarding_desc">Explore a world of premium rice, from aromatic basmati to hearty brown rice, all at your fingertips.</string>
+    <string name="next">Next</string>
+
+    <string name="onboarding2_title">Order with Ease,\nDelivered Fast</string>
+    <string name="onboarding2_desc">Experience the convenience of ordering your favorite rice varieties with just a few taps. We ensure swift delivery right to your doorstep.</string>
+    <string name="get_started">Get Started</string>
 </resources>
