@@ -10,4 +10,9 @@
     <string name="onboarding2_title">Order with Ease,\nDelivered Fast</string>
     <string name="onboarding2_desc">Experience the convenience of ordering your favorite rice varieties with just a few taps. We ensure swift delivery right to your doorstep.</string>
     <string name="get_started">Get Started</string>
+
+    <string name="welcome_signup">Sign up</string>
+    <string name="welcome_signin">Sign In</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+
 </resources>
