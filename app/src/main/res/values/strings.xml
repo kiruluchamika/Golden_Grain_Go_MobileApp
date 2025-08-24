@@ -23,5 +23,13 @@
     <string name="no_account">Dont have an account?</string>
     <string name="sign_up">Sign Up</string>
 
+    <string name="signup_title">Sign up</string>
+    <string name="hint_fullname">Full Name</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="have_account">Already have an account? </string>
+    <string name="login_now">Log In</string>
+
+
 
 </resources>
