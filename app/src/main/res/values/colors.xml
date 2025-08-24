@@ -11,4 +11,8 @@
     <color name="onboarding_bg">#FFF9C4</color> <!-- light yellow overlay -->
     <color name="onboarding_card">#80FFFFFF</color> <!-- white with transparency -->
     <color name="btn_onboard">#E4C748</color> <!-- white with transparency -->
+
+    <color name="background">#FFFBEF</color>
+    <color name="primary">#000000</color>
+    <color name="gray">#E0E0E0</color>
 </resources>

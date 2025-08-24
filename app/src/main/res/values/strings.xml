@@ -30,4 +30,14 @@
     <string name="have_account">Already have an account? </string>
     <string name="login_now">Log In</string>
 
+    <string name="cart_title">Cart</string>
+    <string name="cart_item_image">Cart Item Image</string>
+    <string name="total_cost_label">Total Cost :</string>
+    <string name="place_order">Place Order</string>
+    <string name="decrease_quantity">Decrease Quantity</string>
+    <string name="increase_quantity">Increase Quantity</string>
+    <string name="cart">Cart</string>
+    <string name="total_cost">Total Cost : Rs.%1$.2f</string>
+    <string name="total_cost_placeholder">Total Cost : Rs.0.00</string>
+
 </resources>
