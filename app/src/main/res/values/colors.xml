@@ -22,4 +22,6 @@
     <color name="btn_green">#98FB98</color>
     <color name="btn_settings">#FFF176</color>
 
+    <color name="overlay_black">#80000000</color> <!-- semi-transparent black -->
+
 </resources>
