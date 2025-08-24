@@ -37,7 +37,6 @@
     <string name="decrease_quantity">Decrease Quantity</string>
     <string name="increase_quantity">Increase Quantity</string>
     <string name="cart">Cart</string>
-    <string name="total_cost">Total Cost : Rs.%1$.2f</string>
     <string name="total_cost_placeholder">Total Cost : Rs.0.00</string>
 
     <string name="welcome_user">Welcome %1$s</string>
@@ -52,5 +51,13 @@
     <string name="buy_now">Buy Now</string>
     <string name="product_desc">This vast mountain range is renowned for its remarkable diversity in terms of topography and climate. It features towering peaks, active volcanoes, deep canyons, expansive plateaus, and lush valleys.</string>
 
+    <string name="payment_methods">Payment Methods</string>
+    <string name="card_number">Card Number</string>
+    <string name="expire_date">Expire Date</string>
+    <string name="cvv">CVV</string>
+    <string name="card_holder">Card Holders Name</string>
+    <string name="save_card">Save this Card</string>
+    <string name="total_cost">Total Cost : Rs.250.00</string>
+    <string name="pay_now">Pay Now</string>
 
 </resources>
