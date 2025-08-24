@@ -60,4 +60,13 @@
     <string name="total_cost">Total Cost : Rs.250.00</string>
     <string name="pay_now">Pay Now</string>
 
+    <!-- Payment Success -->
+    <string name="order_confirmation">Order Confirmation</string>
+    <string name="order_payment_success">Order payment Successful</string>
+    <string name="transaction_number">Transaction Number : 1234567890</string>
+    <string name="amount_paid">Amount Paid Rs.950.00</string>
+    <string name="payment_method">Payed by PayPal</string>
+    <string name="view_order">View Order</string>
+    <string name="back">Back</string>
+
 </resources>
