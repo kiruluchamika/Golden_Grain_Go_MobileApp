@@ -27,6 +27,8 @@
     <color name="green">#2E7D32</color>
     <color name="bg_light1">#FFFDE7</color> <!-- Light yellow background -->
 
-
+    <color name="dark_gray">#666666</color>
+    <color name="light_yellow">#FFFDE7</color>
+    <color name="soft_yellow">#FFF9C4</color>
 
 </resources>

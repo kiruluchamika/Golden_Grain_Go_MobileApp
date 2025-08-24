@@ -69,4 +69,9 @@
     <string name="view_order">View Order</string>
     <string name="back">Back</string>
 
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="order_history">Order History</string>
+    <string name="saved_addresses">Saved Addresses</string>
+
 </resources>
