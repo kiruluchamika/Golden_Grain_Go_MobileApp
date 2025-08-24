@@ -40,4 +40,11 @@
     <string name="total_cost">Total Cost : Rs.%1$.2f</string>
     <string name="total_cost_placeholder">Total Cost : Rs.0.00</string>
 
+    <string name="welcome_user">Welcome %1$s</string>
+    <string name="welcome_user_placeholder">Welcome User</string>
+    <string name="products">Products</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+
+
 </resources>

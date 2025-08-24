@@ -1,11 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity">
+    android:background="@color/bg_light"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="-16dp">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <!-- App title -->
+
+  <!-- Welcome -->
+  <TextView
+      android:id="@+id/txtAppName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="108dp"
+      android:layout_marginTop="28dp"
+      android:layout_marginEnd="114dp"
+      android:text="@string/app_name"
+      android:textColor="@color/text_dark"
+      android:textSize="26sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <!-- My orders -->
+  <TextView
+      android:id="@+id/txtWelcome"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="152dp"
+      android:layout_marginTop="28dp"
+      android:text="@string/welcome_user_placeholder"
+      android:textColor="@color/text_dark"
+      android:textSize="16sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/txtAppName" />
+
+  <TextView
+      android:id="@+id/txtMyOrders"
+      android:layout_width="179dp"
+      android:layout_height="110dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="24dp"
+      android:background="@drawable/cart_item_bg"
+      android:gravity="center"
+      android:padding="16dp"
+      android:text="My orders\n150"
+      android:textColor="@color/text_dark"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/txtWelcome" />
+
+  <!-- Total Products -->
+  <TextView
+      android:id="@+id/txtTotalProducts"
+      android:layout_width="194dp"
+      android:layout_height="108dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginEnd="16dp"
+      android:background="@drawable/cart_item_bg"
+      android:gravity="center"
+      android:padding="16dp"
+      android:text="Total Products\n50"
+      android:textColor="@color/text_dark"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@id/txtMyOrders"
+      app:layout_constraintTop_toTopOf="@id/txtMyOrders" />
+
+  <!-- Pending Orders -->
+  <TextView
+      android:id="@+id/txtPendingOrders"
+      android:layout_width="386dp"
+      android:layout_height="109dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="16dp"
+      android:background="@drawable/cart_item_bg"
+      android:gravity="center"
+      android:padding="16dp"
+      android:text="Pending Orders\n8"
+      android:textColor="@color/text_dark"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/txtMyOrders" />
+
+  <!-- Products button -->
+
+  <!-- Profile button -->
+  <Button
+      android:id="@+id/btnProducts"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="32dp"
+      android:layout_marginTop="80dp"
+      android:backgroundTint="@color/btn_yellow"
+      android:text="@string/products"
+      android:textColor="@android:color/black"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.75"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/txtPendingOrders" />
+
+  <Button
+      android:id="@+id/btnSettings"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="32dp"
+      android:layout_marginTop="16dp"
+      android:backgroundTint="@color/btn_settings"
+      android:text="@string/settings"
+      android:textColor="@android:color/black"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.75"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/btnProfile" />
+
+  <Button
+      android:id="@+id/btnProfile"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="32dp"
+      android:layout_marginTop="16dp"
+      android:backgroundTint="@color/btn_green"
+      android:text="@string/profile"
+      android:textColor="@android:color/black"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.75"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/btnProducts" />
+
+  <!-- Settings button -->
+
+  <!-- Spacer -->
+
+  <!-- Bottom nav include -->
+  <include
+      android:id="@+id/includeBottom"
+      layout="@layout/bottom_nav"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

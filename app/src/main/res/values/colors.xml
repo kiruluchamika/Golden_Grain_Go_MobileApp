@@ -15,4 +15,11 @@
     <color name="background">#FFFBEF</color>
     <color name="primary">#000000</color>
     <color name="gray">#E0E0E0</color>
+
+    <color name="bg_light">#FFFBEF</color>
+    <color name="text_dark">#3E3E3E</color>
+    <color name="btn_yellow">#FFD580</color>
+    <color name="btn_green">#98FB98</color>
+    <color name="btn_settings">#FFF176</color>
+
 </resources>
