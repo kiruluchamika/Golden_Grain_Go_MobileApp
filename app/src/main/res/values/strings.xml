@@ -74,4 +74,10 @@
     <string name="order_history">Order History</string>
     <string name="saved_addresses">Saved Addresses</string>
 
+    <string name="address_home">Home</string>
+    <string name="address_work">Work</string>
+    <string name="address_home_line">123 Main St, Apt 4B, Anytown, CA 91234</string>
+    <string name="address_work_line">456 Oak Ave, Unit 2C, Anytown, CA 91234</string>
+    <string name="add_new_address">Add New Address</string>
+
 </resources>
