@@ -13,6 +13,9 @@
         android:theme="@style/Theme.GoldenGrainGo"
         tools:targetApi="31">
         <activity
+            android:name=".PaymentCardsActivity"
+            android:exported="false" />
+        <activity
             android:name=".SaveAddressActivity"
             android:exported="false" />
         <activity

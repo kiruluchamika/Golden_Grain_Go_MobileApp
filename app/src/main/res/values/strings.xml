@@ -80,4 +80,24 @@
     <string name="address_work_line">456 Oak Ave, Unit 2C, Anytown, CA 91234</string>
     <string name="add_new_address">Add New Address</string>
 
+
+    <!-- Payment Methods -->
+    <string name="payment_methods_title">Payment Methods</string>
+    <string name="saved_payment_methods">Saved Payment Methods</string>
+    <string name="add_payment_method">Add Payment Method</string>
+
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="paypal">PayPal</string>
+    <string name="apple_pay">Apple Pay</string>
+    <string name="credit_or_debit_card">Credit or Debit Card</string>
+
+    <string name="masked_visa">•••• 4242</string>
+    <string name="masked_master">•••• 1234</string>
+    <string name="masked_apple">•••• 9876</string>
+    <string name="paypal_email">jennifer.lee@gmail.com</string>
+
+    <!-- Small helpers -->
+    <string name="deleted">%1$s removed</string>
+    <string name="add_flow">Add %1$s</string>
 </resources>
