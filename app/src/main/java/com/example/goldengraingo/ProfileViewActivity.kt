@@ -21,7 +21,7 @@ class ProfileViewActivity : AppCompatActivity() {
         navHome.setOnClickListener { safeStart(MainActivity::class.java, "MainActivity") }
         navSearch.setOnClickListener { safeStart(ProductActivity::class.java, "ProductActivity") }
         navCart.setOnClickListener { safeStart(CartActivity::class.java, "CartActivity") }
-        navProfile.setOnClickListener { safeStart(ProfileViewActivity::class.java, "ProfileViewActivity") }
+        navProfile.setOnClickListener { safeStart(ProfileActivity::class.java, "ProfileActivity") }
     }
 
     private fun <T> safeStart(clazz: Class<T>, name: String) {
