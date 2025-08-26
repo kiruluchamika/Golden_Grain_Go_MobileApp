@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light">
+
+    <!-- Top bar -->
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="←"
+        android:textSize="20sp"
+        android:textColor="@color/text_dark"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:paddingEnd="16dp"
+        android:text="@string/my_profile"
+        android:textAlignment="center"
+        android:textColor="@color/text_dark"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/btnBack"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Avatar (emoji so we don't need an image file) -->
+    <TextView
+        android:id="@+id/imgAvatar"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="🧑‍🎨"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/txtTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Form container (simple white panel) -->
+    <LinearLayout
+        android:id="@+id/formPanel"
+        android:layout_width="388dp"
+        android:layout_height="434dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgAvatar">
+
+        <!-- Full Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_fullname"
+            android:textColor="@color/text_dark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="Kirulu Chamika"
+            android:inputType="textPersonName"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/text_dark" />
+
+        <!-- Phone Number -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/hint_phone"
+            android:textColor="@color/text_dark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="+94712098485"
+            android:inputType="phone"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/text_dark" />
+
+        <!-- Email -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Email"
+            android:textColor="@color/text_dark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="info@gmail.com"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/text_dark" />
+
+        <!-- Age -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Age"
+            android:textColor="@color/text_dark"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@android:drawable/edit_text"
+            android:hint="23"
+            android:inputType="number"
+            android:paddingHorizontal="12dp"
+            android:textColor="@color/text_dark" />
+
+        <!-- Change button -->
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/btn_yellow"
+            android:stateListAnimator="@null"
+            android:text="Change"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <!-- Bottom nav include (uses your existing file) -->
+    <include
+        android:id="@+id/includeBottom"
+        layout="@layout/bottom_nav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

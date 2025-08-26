@@ -2,6 +2,7 @@ package com.example.goldengraingo
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -22,6 +23,22 @@ class ProfileViewActivity : AppCompatActivity() {
         navSearch.setOnClickListener { safeStart(ProductActivity::class.java, "ProductActivity") }
         navCart.setOnClickListener { safeStart(CartActivity::class.java, "CartActivity") }
         navProfile.setOnClickListener { safeStart(ProfileActivity::class.java, "ProfileActivity") }
+
+        findViewById<Button>(R.id.btnEditProfile).setOnClickListener {
+            safeStart(EditProfileActivity::class.java, "EditProfileActivity")
+        }
+
+        findViewById<Button>(R.id.btnOrderHistory).setOnClickListener {
+            safeStart(ProductActivity::class.java, "ProductActivity")
+        }
+
+        findViewById<Button>(R.id.btnSavedAddresses).setOnClickListener {
+            safeStart(SaveAddressActivity::class.java, "SaveAddressActivity")
+        }
+
+        findViewById<Button>(R.id.btnPaymentMethods).setOnClickListener {
+            safeStart(PaymentCardsActivity::class.java, "PaymentCardsActivity")
+        }
     }
 
     private fun <T> safeStart(clazz: Class<T>, name: String) {

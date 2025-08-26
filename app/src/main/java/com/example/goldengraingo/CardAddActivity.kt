@@ -1,6 +1,7 @@
 package com.example.goldengraingo
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -21,6 +22,10 @@ class CardAddActivity : AppCompatActivity() {
         navSearch.setOnClickListener { safeStart(ProductActivity::class.java, "ProductActivity") }
         navCart.setOnClickListener { safeStart(CartActivity::class.java, "CartActivity") }
         navProfile.setOnClickListener { safeStart(ProfileActivity::class.java, "ProfileActivity") }
+
+        findViewById<Button>(R.id.btnPayNow).setOnClickListener {
+            safeStart(PaymentSuccessActivity::class.java, "PaymentSuccessActivity")
+        }
     }
 
     private fun <T> safeStart(clazz: Class<T>, name: String) {

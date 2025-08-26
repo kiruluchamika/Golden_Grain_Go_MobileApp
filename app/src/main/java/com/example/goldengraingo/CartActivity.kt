@@ -21,13 +21,14 @@ class CartActivity : AppCompatActivity() {
         // Find views
         totalCostText = findViewById(R.id.totalCostText)
         placeOrderBtn = findViewById(R.id.placeOrderBtn)
-
-        // Set total cost
-        totalCostText.text = getString(R.string.total_cost, totalCost)
+//
+//        // Set total cost
+//        totalCostText.text = getString(R.string.total_cost, totalCost)
 
         // Place order button
         placeOrderBtn.setOnClickListener {
-            Toast.makeText(this, "Order placed successfully!", Toast.LENGTH_SHORT).show()
+//            Toast.makeText(this, "Order placed successfully!", Toast.LENGTH_SHORT).show()
+                safeStart(CardAddActivity::class.java, "CardAddActivity")
         }
 
         // --- Bottom nav listeners ---
