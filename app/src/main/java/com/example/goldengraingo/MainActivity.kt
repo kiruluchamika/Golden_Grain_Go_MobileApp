@@ -2,7 +2,9 @@ package com.example.goldengraingo
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.LinearLayout
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
@@ -32,6 +34,10 @@ class MainActivity : AppCompatActivity() {
 
         navProfile.setOnClickListener {
             safeStart(ProfileActivity::class.java, "ProfileActivity")
+        }
+
+        findViewById<ImageView>(R.id.pgo).setOnClickListener {
+            startActivity(Intent(this, ProductViewActivity::class.java))
         }
     }
 

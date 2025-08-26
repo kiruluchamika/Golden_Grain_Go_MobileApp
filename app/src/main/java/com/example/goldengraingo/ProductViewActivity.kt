@@ -17,8 +17,7 @@ class ProductViewActivity : AppCompatActivity() {
         val btnBuyNow = findViewById<Button>(R.id.btnBuyNow)
         btnBuyNow.setOnClickListener {
             Toast.makeText(this, "Buy Now clicked!", Toast.LENGTH_SHORT).show()
-            // Navigate to CartActivity maybe
-            startActivity(Intent(this, CartActivity::class.java))
+            startActivity(Intent(this, CardAddActivity::class.java))
         }
 
         // Bottom nav listeners
