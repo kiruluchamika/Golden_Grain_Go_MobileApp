@@ -33,7 +33,7 @@ class ProfileActivity : AppCompatActivity() {
             safeStart(ProductActivity::class.java, "ProductActivity")
         }
 
-        findViewById<Button>(R.id.btnProfile).setOnClickListener {
+        findViewById<Button>(R.id.btnProfile1).setOnClickListener {
             safeStart(ProfileViewActivity::class.java, "ProfileViewActivity")
         }
 

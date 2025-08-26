@@ -2,7 +2,6 @@ package com.example.goldengraingo
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -24,19 +23,17 @@ class ProfileViewActivity : AppCompatActivity() {
         navCart.setOnClickListener { safeStart(CartActivity::class.java, "CartActivity") }
         navProfile.setOnClickListener { safeStart(ProfileActivity::class.java, "ProfileActivity") }
 
-        findViewById<Button>(R.id.btnEditProfile).setOnClickListener {
+        // Row clicks (these are LinearLayouts in your XML)
+        findViewById<LinearLayout>(R.id.btnEditProfile).setOnClickListener {
             safeStart(EditProfileActivity::class.java, "EditProfileActivity")
         }
-
-        findViewById<Button>(R.id.btnOrderHistory).setOnClickListener {
-            safeStart(ProductActivity::class.java, "ProductActivity")
+        findViewById<LinearLayout>(R.id.btnOrderHistory).setOnClickListener {
+            safeStart(OrderHistoryActivity::class.java, "OrderHistoryActivity")
         }
-
-        findViewById<Button>(R.id.btnSavedAddresses).setOnClickListener {
+        findViewById<LinearLayout>(R.id.btnSavedAddresses).setOnClickListener {
             safeStart(SaveAddressActivity::class.java, "SaveAddressActivity")
         }
-
-        findViewById<Button>(R.id.btnPaymentMethods).setOnClickListener {
+        findViewById<LinearLayout>(R.id.btnPaymentMethods).setOnClickListener {
             safeStart(PaymentCardsActivity::class.java, "PaymentCardsActivity")
         }
     }
