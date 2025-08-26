@@ -28,7 +28,6 @@ class SaveAddressActivity : AppCompatActivity() {
         // Add new address
         findViewById<Button>(R.id.btnAddNew).setOnClickListener {
             Toast.makeText(this, "Add New Address", Toast.LENGTH_SHORT).show()
-            // startActivity(Intent(this, AddAddressActivity::class.java))  // when ready
         }
 
         // Bottom nav

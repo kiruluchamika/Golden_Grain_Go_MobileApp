@@ -8,9 +8,9 @@
     <color name="colorAccent">#C97E48</color> <!-- 10% highlights -->
     <color name="colorText">#3E2723</color>
 
-    <color name="onboarding_bg">#FFF9C4</color> <!-- light yellow overlay -->
-    <color name="onboarding_card">#80FFFFFF</color> <!-- white with transparency -->
-    <color name="btn_onboard">#E4C748</color> <!-- white with transparency -->
+    <color name="onboarding_bg">#FFF9C4</color>
+    <color name="onboarding_card">#80FFFFFF</color>
+    <color name="btn_onboard">#E4C748</color>
 
     <color name="background">#FFFBEF</color>
     <color name="primary">#000000</color>
@@ -22,10 +22,10 @@
     <color name="btn_green">#98FB98</color>
     <color name="btn_settings">#FFF176</color>
 
-    <color name="overlay_black">#80000000</color> <!-- semi-transparent black -->
+    <color name="overlay_black">#80000000</color>
 
     <color name="green">#2E7D32</color>
-    <color name="bg_light1">#FFFDE7</color> <!-- Light yellow background -->
+    <color name="bg_light1">#FFFDE7</color>
 
     <color name="dark_gray">#666666</color>
     <color name="light_yellow">#FFFDE7</color>

@@ -28,7 +28,7 @@ class OrderHistoryActivity : AppCompatActivity() {
         navCart?.setOnClickListener { safeStart(CartActivity::class.java, "CartActivity") }
         navProfile?.setOnClickListener { safeStart(ProfileActivity::class.java, "ProfileActivity") }
 
-        // Highlight current tab (Profile or History depending where you want)
+
         navProfile?.alpha = 1f
         navHome?.alpha = 0.6f
         navSearch?.alpha = 0.6f

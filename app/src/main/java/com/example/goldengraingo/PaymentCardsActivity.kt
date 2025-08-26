@@ -30,7 +30,7 @@ class PaymentCardsActivity : AppCompatActivity() {
             Toast.makeText(this, getString(R.string.deleted, "Apple Pay"), Toast.LENGTH_SHORT).show()
         }
 
-        // Add flows (stub)
+
         findViewById<LinearLayout>(R.id.addCard).setOnClickListener {
             Toast.makeText(this, getString(R.string.add_flow, getString(R.string.credit_or_debit_card)), Toast.LENGTH_SHORT).show()
         }

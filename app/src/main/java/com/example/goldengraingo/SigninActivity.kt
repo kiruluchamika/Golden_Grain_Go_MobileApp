@@ -24,7 +24,7 @@ class SigninActivity : AppCompatActivity() {
         val iconFacebook = findViewById<ImageView>(R.id.iconFacebook)
 
         btnLogin.setOnClickListener {
-            // For the lab: only navigate (no real auth required)
+
             startActivity(Intent(this, MainActivity::class.java))
         }
 

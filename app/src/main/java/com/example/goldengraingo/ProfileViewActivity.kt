@@ -23,7 +23,7 @@ class ProfileViewActivity : AppCompatActivity() {
         navCart.setOnClickListener { safeStart(CartActivity::class.java, "CartActivity") }
         navProfile.setOnClickListener { safeStart(ProfileActivity::class.java, "ProfileActivity") }
 
-        // Row clicks (these are LinearLayouts in your XML)
+
         findViewById<LinearLayout>(R.id.btnEditProfile).setOnClickListener {
             safeStart(EditProfileActivity::class.java, "EditProfileActivity")
         }

@@ -12,7 +12,7 @@ class SettingsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // If your file name is different, update the layout ID accordingly.
+
         setContentView(R.layout.activity_settings)
 
         // Back

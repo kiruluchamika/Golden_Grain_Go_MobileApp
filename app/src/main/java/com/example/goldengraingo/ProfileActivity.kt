@@ -13,7 +13,7 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
 
-        // Example: set dynamic username
+
         val welcomeText = findViewById<TextView>(R.id.txtWelcome)
         welcomeText.text = getString(R.string.welcome_user, "Ck")
 

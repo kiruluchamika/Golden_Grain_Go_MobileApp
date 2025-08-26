@@ -12,7 +12,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        // Optional: hide the action bar for a clean splash look
+
         supportActionBar?.hide()
 
         // Navigate to MainActivity after 3 seconds

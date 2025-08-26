@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         val navProfile = findViewById<LinearLayout>(R.id.navProfile)
 
         navHome.setOnClickListener {
-            // Already here; optionally scroll to top
             Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show()
         }
 
@@ -40,7 +39,6 @@ class MainActivity : AppCompatActivity() {
         try {
             startActivity(Intent(this, clazz))
         } catch (e: Exception) {
-            // In case the target Activity isn't created yet, avoid crashing
             Toast.makeText(this, "$name not found yet.", Toast.LENGTH_SHORT).show()
         }
     }

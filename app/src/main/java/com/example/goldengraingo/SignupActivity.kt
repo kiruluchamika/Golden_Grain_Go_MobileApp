@@ -21,7 +21,7 @@ class SignupActivity : AppCompatActivity() {
         val password = findViewById<TextInputEditText>(R.id.etPassword)
 
         findViewById<MaterialButton>(R.id.btnRegister).setOnClickListener {
-            // For the lab exam we just navigate; no backend needed
+
             startActivity(Intent(this, SigninActivity::class.java))
         }
 
