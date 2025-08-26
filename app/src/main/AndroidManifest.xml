@@ -55,12 +55,6 @@
             android:name=".ProductActivity"
             android:exported="false" />
         <activity
-            android:name=".bottom_nav"
-            android:exported="false" />
-        <activity
-            android:name=".BottomNavHelper"
-            android:exported="false" />
-        <activity
             android:name=".SignupActivity"
             android:exported="false" />
         <activity
