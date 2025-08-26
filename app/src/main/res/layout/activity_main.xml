@@ -77,8 +77,8 @@
 
                 <EditText
                     android:id="@+id/searchInput"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="288dp"
+                    android:layout_height="53dp"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:hint="Search places"
@@ -189,7 +189,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/bg_onboarding2" />
+                            android:src="@drawable/r1" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -242,7 +242,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/bg_onboarding" />
+                            android:src="@drawable/r2" />
 
                         <LinearLayout
                             android:layout_width="match_parent"

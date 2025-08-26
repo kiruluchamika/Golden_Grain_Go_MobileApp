@@ -19,7 +19,7 @@ class CartActivity : AppCompatActivity() {
         setContentView(R.layout.activity_cart)
 
         // Find views
-        totalCostText = findViewById(R.id.totalCostText)
+       // totalCostText = findViewById(R.id.totalCostText)
         placeOrderBtn = findViewById(R.id.placeOrderBtn)
 //
 //        // Set total cost

@@ -98,7 +98,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/bg_onboarding2" />
+                        android:src="@drawable/p1" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -154,7 +154,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/bg_onboarding2"/>
+                    android:src="@drawable/p2"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -249,7 +249,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/bg_onboarding" />
+                        android:src="@drawable/s1" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -287,7 +287,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/bg_onboarding"/>
+                    android:src="@drawable/s2"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"

@@ -17,10 +17,7 @@ class OrderTrackingActivity : AppCompatActivity() {
         // Back
         findViewById<TextView>(R.id.btnBack).setOnClickListener { finish() }
 
-        // Actions
-        findViewById<TextView>(R.id.rowContactSupport).setOnClickListener {
-            Toast.makeText(this, "Calling support…", Toast.LENGTH_SHORT).show()
-        }
+
         findViewById<Button>(R.id.btnViewOrder).setOnClickListener {
             safeStart(OrderActivity::class.java, "OrderActivity")
         }

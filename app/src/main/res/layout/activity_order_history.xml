@@ -58,9 +58,10 @@
             android:padding="8dp">
 
             <ImageView
-                android:layout_width="50dp"
+                android:id="@+id/ss"
+                android:layout_width="39dp"
                 android:layout_height="50dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/o1" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -109,7 +110,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/o2" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -160,7 +161,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/o3" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -209,7 +210,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@drawable/o4" />
 
             <LinearLayout
                 android:layout_width="0dp"
