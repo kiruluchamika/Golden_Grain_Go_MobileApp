@@ -18,14 +18,16 @@ No authentication, validation, or database connection is implemented yet.
 
 ---
 
-## 📸 Screenshots  
-
 ### Splash & Authentication  
-<img src="./images/i1.png" alt="Splash Screen" width="250"/>  
-<img src="./images/i2.png" alt="Auth Screens" width="250"/>  
+<p align="center">
+  <img src="./images/i1.png" alt="Splash Screen" width="250"/>
+</p>  
 
 ### Product Browsing & Details  
-<img src="./images/i3.png" alt="Product Screens" width="400"/>  
+<p align="center">
+  <img src="./images/i3.png" alt="Product Screens" width="400"/>
+</p>
+ 
 
 ---
 
