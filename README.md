@@ -41,7 +41,7 @@ No authentication, validation, or database connection is implemented yet.
 ## 🚀 Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/golden-grain-go.git
+   git clone https://github.com/kiruluchamika/Golden_Grain_Go_MobileApp.git
 2. Open the project in Android Studio.
 3. Build and run the app on an emulator or physical device.
 
