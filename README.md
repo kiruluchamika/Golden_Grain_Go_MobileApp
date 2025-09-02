@@ -15,7 +15,6 @@ The app demonstrates how customers would browse and purchase rice and mill produ
 
 ⚠️ **Note**: This version only includes **front-end navigation**.  
 No authentication, validation, or database connection is implemented yet.  
-
 ---
 
 ### Splash & Authentication  
